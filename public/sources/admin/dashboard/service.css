@@ -1,0 +1,26 @@
+.title{
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 100%;
+    height: 50px;
+    background: #1d68a7;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #ebebeb;
+}
+.body{
+    width: 100%;
+}
+.list table{
+    margin-top: 10px;
+}
+.list table tr th,td{
+    padding: 10px;
+}
+.content2 p, .content2 li, .content2 strong, .content2 em{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}

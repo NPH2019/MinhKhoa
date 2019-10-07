@@ -1,0 +1,103 @@
+.fixNav{
+  width: 100%;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: 100000000;
+}
+.cart-body{
+	z-index:999;
+}
+.inner-header{
+	background-color: #ffffff
+}
+.inner-title,.beta-breadcrumb, .beta-breadcrumb a{
+	color: black
+}
+.main-menu>ul.l-inline> li> a{
+	color: #fff;
+	padding: 10px 35px
+}
+.beta-comp{
+    margin-left: 400px;
+    margin-top: 5px;
+}
+.info li{
+    list-style-type: none;
+
+}
+.item-right{
+    float: left;
+    background: white;
+    width: 350px;
+    margin: 17px;
+    border: none;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 10);
+    -moz-box-shadow:0px 0px 3px rgba(0, 0, 0, 10);
+    -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 10);
+}
+.item-right:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 10);
+    -moz-box-shadow:0px 0px 15px rgba(0, 0, 0, 10);
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 10);
+    -webkit-transform: scale(1.2, 1.2) ;
+    transform: scale(1.1, 1.1) ;
+    -webkit-transition:-webkit-transform 0.5s, background 1s, scale 2s, box-shadow 1s;
+}
+.item-right2{
+    float: left;
+    background: white;
+    width: 130%;
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 10);
+    -moz-box-shadow:0px 0px 3px rgba(0, 0, 0, 10);
+    -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 10);
+}
+#menu_left
+{
+    background: #1d68a7;
+    width: 380px;
+    float: left;
+}
+#menu_left h4{
+    color: white;
+    background: #0f3e68 ;
+    padding: 5px;
+    text-align: center;
+}
+#menu_left img{
+    float: left;
+    margin: 12px;
+    width: 5%;
+
+}
+#menu_left h6{
+    float: left;
+    font-size: 18px;
+    margin: 5px;
+    color: lightgrey;
+}
+#menu_left li{
+    width: 100%;
+    margin: 5px 0 5px 0;
+    float: left;
+}
+#menu_left li:hover{
+    background: #0f3e68;
+    -webkit-transform: scale(1.05, 1.1) ;
+    transform: scale(1.05, 1.1) ;
+    -webkit-transition:-webkit-transform 0.5s, background 0.5s, scale 0.5s;
+}
+#menu_left li:hover h6{
+    color: white;
+}
+#product{
+    width: 100%;
+    background:#0f3e68;
+}
+#product h4{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}

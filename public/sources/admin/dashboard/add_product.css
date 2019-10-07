@@ -1,0 +1,32 @@
+.title{
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 100%;
+    height: 50px;
+    background: #1d68a7;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #ebebeb;
+}
+.add{
+    padding-top: 10px;
+    width: 100%;
+    background: #ebebeb;
+}
+.add h3{
+    float: left;
+}
+.add table th input, textarea{
+    width: 100%;
+}
+.lv2{
+    color: gray;
+    font-size: 20px;
+}
+.content2 p, .content2 li, .content2 strong, .content2 em{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
